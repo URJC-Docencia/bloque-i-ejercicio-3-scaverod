@@ -11,6 +11,7 @@ import java.util.Iterator;
  * @param <E> the type of elements in the list
  */
 public interface MyListBetter<E> extends Iterable<Position<E>> {
+    
     /**
      * Returns the number of elements in this list
      *
